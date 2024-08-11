@@ -182,3 +182,5 @@ This job runs on an `ubuntu-latest` runner and is responsible for the entire CI/
 
     -This step uses Kustomize to update the image in the Kubernetes manifests, builds the final manifests, and deploys them to the EKS cluster. It also checks the status of the deployment and lists the services.
 
+[← Previous](09-kustomize.md)
+
