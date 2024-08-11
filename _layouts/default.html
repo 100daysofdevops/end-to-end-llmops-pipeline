@@ -5,23 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <div class="wrapper">
     <div class="sidebar">
+      <h2>End-to-End LLMOps</h2>
       <ul>
-        <li><a href="01-Hugging-Face">Day 1: Hugging Face</a></li>
-        <li><a href="02-FastAPI">Day 2: FastAPI</a></li>
-        <li><a href="03-Docker">Day 3: Docker</a></li>
-        <li><a href="04-Trivy">Day 4: Trivy</a></li>
-        <li><a href="05-AWS-ECR">Day 5: AWS ECR</a></li>
-        <li><a href="06-Kubernetes">Day 6: Kubernetes</a></li>
-        <li><a href="07-kube-score">Day 7: kube-score</a></li>
-        <li><a href="08-EKS">Day 8: AWS EKS</a></li>
-        <li><a href="09-kustomize">Day 9: kustomize</a></li>
-        <li><a href="10-github-action">Day 10: GitHub Actions</a></li>
+        <li><a href="01-Hugging-Face"><i class="fas fa-rocket"></i> Day 1: Hugging Face</a></li>
+        <li><a href="02-FastAPI"><i class="fas fa-server"></i> Day 2: FastAPI</a></li>
+        <li><a href="03-Docker"><i class="fas fa-box"></i> Day 3: Docker</a></li>
+        <li><a href="04-Trivy"><i class="fas fa-shield-alt"></i> Day 4: Trivy</a></li>
+        <li><a href="05-AWS-ECR"><i class="fas fa-cloud"></i> Day 5: AWS ECR</a></li>
+        <li><a href="06-Kubernetes"><i class="fas fa-cubes"></i> Day 6: Kubernetes</a></li>
+        <li><a href="07-kube-score"><i class="fas fa-star"></i> Day 7: kube-score</a></li>
+        <li><a href="08-EKS"><i class="fas fa-network-wired"></i> Day 8: AWS EKS</a></li>
+        <li><a href="09-kustomize"><i class="fas fa-edit"></i> Day 9: kustomize</a></li>
+        <li><a href="10-github-action"><i class="fab fa-github"></i> Day 10: GitHub Actions</a></li>
       </ul>
     </div>
+
     <div class="content">
       {{ content }}
     </div>
