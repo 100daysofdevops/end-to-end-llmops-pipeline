@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Day 5: AWS ECR"
+---
+
 ![AWSECR](img/aws-ecr.jpg)
 # What is AWS Elastic Container Registry (ECR)?
 
@@ -45,4 +50,4 @@ docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.$AWS_REGION.amazonaws.com/$ECR
 
 > **Note:** This is only for illustration purposes. We are going to integrate ECR with GitHub Actions to ensure that Docker images are automatically built and pushed to ECR as part of your CI/CD pipeline.
 
-[← Previous](day4.html) | [Next →](day6.html)
+[← Previous](04-Trivy) | [Next →](06-Kubernetes)
