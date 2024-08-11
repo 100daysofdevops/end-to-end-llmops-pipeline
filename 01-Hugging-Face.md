@@ -47,10 +47,13 @@ print(f"Answer: {answer['answer']}")
 
 > **Note:** This code is for demonstration purposes; we will use it along with FastAPI.
 
-# Example Output
+## Example Output
 When you run the above code, you should see output similar to:
 
 ```bash
 Question: What does Hugging Face provide?
 Answer: open-source NLP libraries
 ```
+
+## Explanation
+The code demonstrates how to use the Hugging Face transformers library to create a question-answering pipeline. It imports the pipeline function, initializes a question-answering pipeline using the "distilbert-base-uncased-distilled-squad" model, and defines a context and a question. The pipeline is then used to find the best answer to the question based on the context provided. Finally, the code prints both the question and the corresponding answer found by the model.
