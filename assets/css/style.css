@@ -1,7 +1,10 @@
 body {
-  display: flex;
   margin: 0;
   font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  display: flex;
 }
 
 .sidebar {
@@ -10,6 +13,9 @@ body {
   padding: 20px;
   height: 100vh;
   box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .sidebar ul {
@@ -29,10 +35,16 @@ body {
 }
 
 .content {
-  flex-grow: 1;
+  margin-left: 220px; /* Adjust content to make space for the sidebar */
   padding: 20px;
+  width: calc(100% - 220px); /* Adjust width to make space for the sidebar */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 18px; /* Adjusted heading sizes */
+  font-size: 18px; /* Adjust heading sizes */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
