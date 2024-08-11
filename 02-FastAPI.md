@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Day 2: FastAPI"
+---
+
 ![FastAPI](img/FastAPI.jpg)
 
 # What is FastAPI?
@@ -103,5 +108,4 @@ if __name__ == "__main__":
 
 * The if __name__ == "__main__": block ensures that the FastAPI app is only run when the script is executed directly. It starts the server using uvicorn.run() on `host="0.0.0.0"` and `port=8000`
 
-[← Previous](day1.html) | [Next →](day3.html)
-
+[← Previous](01-Hugging-Face) | [Next →](03-Docker)
