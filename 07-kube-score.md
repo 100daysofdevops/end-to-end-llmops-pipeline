@@ -37,3 +37,4 @@ The command will output a list of checks performed on the manifest, along with a
    · gptcontainer -> Liveness probe is configured
    · gptcontainer -> Readiness probe is configured
 ```
+[← Previous](day6.html) | [Next →](day8.html)
