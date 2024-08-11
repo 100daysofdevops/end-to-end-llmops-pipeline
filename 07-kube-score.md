@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Day 7: kube-score"
+---
+
 ![kube-score](img/kube-score.jpg)
 # Using `kube-score` to Validate Kubernetes Manifests
 
@@ -37,4 +42,4 @@ The command will output a list of checks performed on the manifest, along with a
    · gptcontainer -> Liveness probe is configured
    · gptcontainer -> Readiness probe is configured
 ```
-[← Previous](day6.html) | [Next →](day8.html)
+[← Previous](06-Kubernetes) | [Next →](08-EKS)
