@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Day 9: kustomize"
+---
+
 ![Kustomize](img/kustomize.jpg)
 # Working with `kustomize` to Manage Kubernetes Manifests
 
@@ -33,4 +38,4 @@ kubectl apply -k .: This command applies the customized resources directly to yo
 
 This command updates the kustomization.yaml file to set a new image for your Kubernetes deployment. The image name is set dynamically using environment variables or secrets provided in a CI/CD pipeline (e.g., GitHub Actions). Here, image_name is replaced with the Docker image hosted in AWS ECR, tagged with the commit SHA ($GITHUB_SHA) for traceability.
 
-[← Previous](08-EKS.md) | [Next →](10-github-action.md)
+[← Previous](08-EKS) | [Next →](10-github-action)
