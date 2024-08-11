@@ -76,4 +76,7 @@ This command runs the container, mapping port 8000 of the container to port 8000
 
 http://localhost:8000
 
-> **Note:** This is only for illustration purposes. We are going to use Kubernetes to run the Docker container,
+> **Note:** This is only for illustration purposes. We are going to use Kubernetes to run the Docker container.
+
+[← Previous](day2.html) | [Next →](day4.html)
+
