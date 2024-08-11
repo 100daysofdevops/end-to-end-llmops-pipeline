@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Day 3: Docker"
+---
+
 ![Docker](img/docker.jpg)
 # What is Docker?
 
@@ -78,5 +83,4 @@ http://localhost:8000
 
 > **Note:** This is only for illustration purposes. We are going to use Kubernetes to run the Docker container.
 
-[← Previous](day2.html) | [Next →](day4.html)
-
+[← Previous](02-FastAPI) | [Next →](04-Trivy)
