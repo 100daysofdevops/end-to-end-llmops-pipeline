@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Day 8: AWS EKS"
+---
+
 ![EKS](img/EKS.jpg)
 # Deploying and Managing Kubernetes Clusters with AWS EKS
 
@@ -25,4 +30,4 @@ aws eks update-kubeconfig --region $AWS_REGION --name $EKS_CLUSTER_NAME
 - **`--region $AWS_REGION`**: Specifies the AWS region where your EKS cluster is running.
 - **`--name $EKS_CLUSTER_NAME`**: The name of the EKS cluster you want to connect to. Replace `$EKS_CLUSTER_NAME` with the actual name of your cluster
 
-[← Previous](07-kube-score.md) | [Next →](09-kustomize.md)
+[← Previous](07-kube-score) | [Next →](09-kustomize)
