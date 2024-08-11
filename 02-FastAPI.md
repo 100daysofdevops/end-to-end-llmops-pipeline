@@ -92,6 +92,7 @@ async def chat(request: ChatRequest):
 * The chat function takes a ChatRequest object as input and uses the qa_pipeline to find the answer based on the question and context.
 * If the process is successful, the function returns a ChatResponse object containing the answer.
 * If an error occurs, an HTTP 500 error is raised with the exception message.
+  
 
 ```bash
 if __name__ == "__main__":
@@ -101,3 +102,6 @@ if __name__ == "__main__":
 ## Running the Server:
 
 * The if __name__ == "__main__": block ensures that the FastAPI app is only run when the script is executed directly. It starts the server using uvicorn.run() on `host="0.0.0.0"` and `port=8000`
+
+[← Previous](day1.html) | [Next →](day3.html)
+
