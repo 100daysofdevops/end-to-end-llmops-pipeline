@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Day 10: GitHub Actions"
+---
+
 ![GitHub Action](img/github_action.jpg)
 # GitHub Actions
 
@@ -182,5 +187,4 @@ This job runs on an `ubuntu-latest` runner and is responsible for the entire CI/
 
     -This step uses Kustomize to update the image in the Kubernetes manifests, builds the final manifests, and deploys them to the EKS cluster. It also checks the status of the deployment and lists the services.
 
-[← Previous](09-kustomize.md)
-
+[← Previous](09-kustomize)
