@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Day 4: Trivy"
+---
+
 ![Trivy](img/Trivy.jpg)
 # What is Trivy?
 
@@ -68,5 +73,4 @@ Total: 3 (UNKNOWN: 0, LOW: 1, MEDIUM: 1, HIGH: 1, CRITICAL: 0)
 
 > **Note:** The example is for illustration purposes, and the focus will be on integrating Trivy with GitHub Actions to identify vulnerabilities before deployment.
 
-[← Previous](day3.html) | [Next →](day5.html)
-
+[← Previous](03-Docker) | [Next →](05-AWS-ECR)
