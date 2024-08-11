@@ -59,3 +59,5 @@ Answer: open-source NLP libraries
 
 ## Explanation
 The code demonstrates how to use the Hugging Face transformers library to create a question-answering pipeline. It imports the pipeline function, initializes a question-answering pipeline using the "distilbert-base-uncased-distilled-squad" model, and defines a context and a question. The pipeline is then used to find the best answer to the question based on the context provided. Finally, the code prints both the question and the corresponding answer found by the model.
+
+[Next →](day2.html)
