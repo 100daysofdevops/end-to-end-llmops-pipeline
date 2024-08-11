@@ -1,3 +1,5 @@
+![Hugging Face](img/hugging-face.jpg)
+
 # What is Hugging Face?
 
 Hugging Face is a leading organization in the field of Natural Language Processing (NLP), known for its open-source libraries and resources that make it easier to build and deploy state-of-the-art machine learning models. Their transformers library provides easy access to thousands of pre-trained models in a standardized format, which can be used for tasks such as text classification, text generation, named entity recognition, and question answering.
