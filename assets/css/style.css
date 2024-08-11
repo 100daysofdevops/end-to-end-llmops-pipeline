@@ -1,29 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
-  <div class="sidebar">
-    <ul>
-      <li><a href="day1.html">Day 1: Hugging Face</a></li>
-      <li><a href="day2.html">Day 2: FastAPI</a></li>
-      <li><a href="day3.html">Day 3: Docker</a></li>
-      <li><a href="day4.html">Day 4: Trivy</a></li>
-      <li><a href="day5.html">Day 5: AWS ECR</a></li>
-      <li><a href="day6.html">Day 6: Kubernetes</a></li>
-      <li><a href="day7.html">Day 7: kube-score</a></li>
-      <li><a href="day8.html">Day 8: AWS EKS</a></li>
-      <li><a href="day9.html">Day 9: kustomize</a></li>
-      <li><a href="day10.html">Day 10: GitHub Actions</a></li>
-    </ul>
-  </div>
+body {
+  display: flex;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-  <div class="content">
-    {{ content }}
-  </div>
-</body>
-</html>
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px; /* Adjusted font size */
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 18px; /* Adjusted heading sizes */
+}
