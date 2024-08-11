@@ -24,3 +24,5 @@ aws eks update-kubeconfig --region $AWS_REGION --name $EKS_CLUSTER_NAME
 - **`aws eks update-kubeconfig`**: This command updates your local `kubeconfig` file with the necessary configuration to connect to your EKS cluster.
 - **`--region $AWS_REGION`**: Specifies the AWS region where your EKS cluster is running.
 - **`--name $EKS_CLUSTER_NAME`**: The name of the EKS cluster you want to connect to. Replace `$EKS_CLUSTER_NAME` with the actual name of your cluster
+
+[← Previous](day7.html) | [Next →](day9.html)
