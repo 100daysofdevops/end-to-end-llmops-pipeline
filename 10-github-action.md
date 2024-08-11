@@ -1,3 +1,4 @@
+![GitHub Action](img/github_action.jpg)
 # GitHub Actions
 
 This GitHub Actions workflow automates the process of building, scanning, publishing a Docker image to Amazon ECR, and deploying it to an Amazon EKS cluster. 
