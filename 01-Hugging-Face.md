@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Day 1: Hugging Face"
+---
+
 ![Hugging Face](img/hugging-face.jpg)
 
 # What is Hugging Face?
