@@ -1,1 +1,3 @@
 theme: jekyll-theme-minimal
+title: End-to-End LLMOps Project from Scratch Using Hugging Face, FastAPI, Docker, Trivy, AWS Elastic Container Registry (ECR), Kubernetes, Kube-score, AWS Elastic Kubernetes Service (EKS), Kustomize, and GitHub Actions
+description: This repository provides a step-by-step guide to building an LLM (Large Language Model) pipeline from scratch.
