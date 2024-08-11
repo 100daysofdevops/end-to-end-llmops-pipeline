@@ -110,3 +110,6 @@ kubectl get services
 These commands will display the running deployments and services, confirming that your application is deployed and accessible.
 
 > **Note:** This is for illustration purposes. We are going to deploy this configuration using GitHub Actions, which will automate the deployment process as part of your CI/CD pipeline.
+
+[← Previous](day5.html) | [Next →](day7.html)
+
