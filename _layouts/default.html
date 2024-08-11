@@ -7,23 +7,24 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <div class="sidebar">
-    <ul>
-      <li><a href="01-Hugging-Face.md">Day 1: Hugging Face</a></li>
-      <li><a href="02-FastAPI.md">Day 2: FastAPI</a></li>
-      <li><a href="03-Docker.md">Day 3: Docker</a></li>
-      <li><a href="04-Trivy.md">Day 4: Trivy</a></li>
-      <li><a href="05-AWS-ECR.md">Day 5: AWS ECR</a></li>
-      <li><a href="06-Kubernetes.md">Day 6: Kubernetes</a></li>
-      <li><a href="07-kube-score.md">Day 7: kube-score</a></li>
-      <li><a href="08-EKS.md">Day 8: AWS EKS</a></li>
-      <li><a href="09-kustomize.md">Day 9: kustomize</a></li>
-      <li><a href="10-github-action.md">Day 10: GitHub Actions</a></li>
-    </ul>
-  </div>
-
-  <div class="content">
-    {{ content }}
+  <div class="wrapper">
+    <div class="sidebar">
+      <ul>
+        <li><a href="01-Hugging-Face.md">Day 1: Hugging Face</a></li>
+        <li><a href="02-FastAPI.md">Day 2: FastAPI</a></li>
+        <li><a href="03-Docker.md">Day 3: Docker</a></li>
+        <li><a href="04-Trivy.md">Day 4: Trivy</a></li>
+        <li><a href="05-AWS-ECR.md">Day 5: AWS ECR</a></li>
+        <li><a href="06-Kubernetes.md">Day 6: Kubernetes</a></li>
+        <li><a href="07-kube-score.md">Day 7: kube-score</a></li>
+        <li><a href="08-EKS.md">Day 8: AWS EKS</a></li>
+        <li><a href="09-kustomize.md">Day 9: kustomize</a></li>
+        <li><a href="10-github-action.md">Day 10: GitHub Actions</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
   </div>
 </body>
 </html>
