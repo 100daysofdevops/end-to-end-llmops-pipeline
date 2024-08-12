@@ -1,4 +1,4 @@
-# End-to-End LLMOps Project from Scratch Using Hugging Face, FastAPI, Docker, Trivy, AWS Elastic Container Registry (ECR), Kubernetes, Kube-score, AWS Elastic Kubernetes Service (EKS), Kustomize, and GitHub Actions
+# End-to-End LLMOps Pipeline from Scratch Using Hugging Face, FastAPI, Docker, Trivy, AWS Elastic Container Registry (ECR), Kubernetes, Kube-score, AWS Elastic Kubernetes Service (EKS), Kustomize, and GitHub Actions
 
 ## About This Project
 
